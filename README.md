@@ -7,6 +7,8 @@
 - [「幕奏-BAKU SOU-」のPV](https://www.youtube.com/watch?v=36_LHk08OWA)
 - [「幕奏-BAKU SOU-」のトレーラー](https://www.youtube.com/watch?v=LSZIk9C3c5Q)
 
+[元バージョンはBOOTHにて配布しています。](https://jirko.booth.pm/items/4003586)
+
 # 本ソフトウェア使用のガイドライン
 以下に本ソフトウェア使用のガイドラインを記載します。詳細につきましてはLICENSEファイルを参照ください。
 
@@ -34,11 +36,11 @@
 　→楽曲の譜面制作に使用しています。
 
 # OpenBakuSou 開発手順
-## 1.画像を差し替える
+## 1.画像を差し替える（必須）
+### **※（必須）以下の画像は差し替え必須です**
 | # | ファイル名 | 概要 | 表示される条件 |
 | :---: | :--- | :--- | :--- |
 | 1 | Assets\Images\help.png | ヘルプ画像 | メニュー画面でヘルプボタン押下時 |
-| 2 | Assets\Images\image.png | ダミー画像 | UnityでUI開発時のダミー画像 |
 | 3 | Assets\Images\sai1.png | ゲーム画面左側に表示されるキャラクターイラスト | スコア評価がCランクのとき |
 | 4 | Assets\Images\sai2.png | ゲーム画面左側に表示されるキャラクターイラスト | スコア評価がBランクのとき |
 | 5 | Assets\Images\sai3.png | ゲーム画面左側に表示されるキャラクターイラスト | スコア評価がAランクのとき |
@@ -49,7 +51,34 @@
 | 10 | Assets\Images\saka4.png | ゲーム画面右側に表示されるキャラクターイラスト | スコア評価がSランクのとき |
 | 11 | Assets\Images\top.png | トップ画面の扉絵 | トップ画面表示時 |
 
-## 2.効果音・BGM・ボイスを差し替える
+### （任意）以下の画像は差し替え**任意**です
+| # | ファイル名 | 概要 | 表示される条件 |
+| :---: | :--- | :--- | :--- |
+| 1 | Assets\Textures\rank\a.png | リザルト画面のAランク画像 | Aランクのとき |
+| 1 | Assets\Textures\rank\b.png | リザルト画面のBランク画像 | Bランクのとき |
+| 1 | Assets\Textures\rank\c.png | リザルト画面のCランク画像 | Cランクのとき |
+| 1 | Assets\Textures\rank\s.png | リザルト画面のSランク画像 | Sランクのとき |
+| 1 | Assets\Textures\rank\ss.png | リザルト画面のSSランク画像 | SSランクのとき |
+| 1 | Assets\Textures\score\0.png～9.png | リザルト画面のスコアの数字 | リザルト画面表示時 |
+| 1 | Assets\Textures\score\newrecord.png | リザルト画面でニューレコード達成時 | ニューレコード達成時 |
+| 1 | Assets\Textures\score\score.png | リザルト画面のスコアテキスト | リザルト画面表示時 |
+| 1 | Assets\Textures\bar_clear.png | ゲーム画面のスコアバーのクリア部分 | ゲーム画面表示時 |
+| 1 | Assets\Textures\bar_fail.png | ゲーム画面のスコアバーの失敗部分 | ゲーム画面表示時 |
+| 1 | Assets\Textures\bar_image.png | ゲーム画面のスコアバーの枠 | ゲーム画面表示時 |
+| 1 | Assets\Textures\bgkinoko.png | ゲーム画面の奥に表示される黒のきのこマーク | ゲーム画面表示時 |
+| 1 | Assets\Textures\char1.png | ゲーム画面の手前に表示されるノーツマーク | ゲーム画面表示時 |
+| 1 | Assets\Textures\char1_shadow.png | ゲーム画面の奥から流れてくるノーツマーク | ゲーム画面表示時 |
+| 1 | Assets\Textures\char2.png | 未使用 | 未使用 |
+| 1 | Assets\Textures\charhikari.png | ゲーム画面の手前に表示されるノーツマーク押下時のエフェクト | ゲーム画面表示時 |
+| 1 | Assets\Textures\FillGreen.png | メニュー画面の設定ウィンドウの音量設定バーの背景 |メニュー画面でSetting押下時 |
+| 1 | Assets\Textures\pushGreen.png | ゲーム画面でノーツ押下時、判定がGreatのとき | 判定がGreatのとき |
+| 1 | Assets\Textures\pushMizu.png | ゲーム画面でノーツ押下時、判定がGoodのとき | 判定がGoodのとき |
+| 1 | Assets\Textures\pushMura.png | ゲーム画面でノーツ押下時、判定がBadのとき | 判定がBadのとき |
+| 1 | Assets\Textures\pushNotes.png | ゲーム画面でノーツ押下時、未判定のとき | 未判定のとき |
+| 1 | Assets\Textures\pushRed.png | 未使用 | 未使用 |
+| 1 | Assets\Textures\star.png | リザルト画面のアイコン | リザルト画面表示時 |
+
+## 2.効果音・BGM・ボイスを差し替える（任意）
 ### 効果音
 | # | ファイル名 | 概要 | 流れる条件 |
 | :---: | :--- | :--- | :--- |
@@ -73,7 +102,7 @@
 | 6 | Voices\clear\\*.wav | リザルト画面でゲームクリア時のボイス | ゲームクリア時 |
 | 7 | Voices\fail\\*.wav | リザルト画面でゲーム失敗時のボイス | ゲーム失敗時 |
 
-## 3.楽曲を差し替える・追加する
+## 3.楽曲を差し替える・追加する（任意）
 ### 3.1 楽曲データの概要
 楽曲データは`Assets\Resources\Music`配下に配置します。楽曲データは1つのディレクトリと、その配下のファイルで構成されます。  
 ディレクトリ名は`00_musicname`（先頭2桁はディレクトリ内で一意のID、musicnameは任意の名前）です。  
@@ -200,3 +229,6 @@ ruby level_calc.rb
 ruby list_generate.rb
 ```
 `Assets\Resources\Music\list.json`の内容が更新され、ゲーム上で楽曲が認識されるようになります。
+
+## ビルド
+Unityのメニューバーの File > Build And Run からビルドしてください。
