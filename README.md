@@ -7,7 +7,14 @@
 - [「幕奏-BAKU SOU-」のPV](https://www.youtube.com/watch?v=36_LHk08OWA)
 - [「幕奏-BAKU SOU-」のトレーラー](https://www.youtube.com/watch?v=LSZIk9C3c5Q)
 
-[元バージョンはBOOTHにて配布しています。](https://jirko.booth.pm/items/4003586)
+[本家「幕奏-BAKU SOU-」はBOOTHにて配布しています。](https://jirko.booth.pm/items/4003586)
+
+# 本家「幕奏-BAKU SOU-」との差異
+OpenBakuSouは、オープンソース化するために本家「幕奏-BAKU SOU-」の最新版(v1.1.3)に対し以下の変更を加えています。
+
+- UnityAssetStoreのアセットで作成したUIを、Unity標準のUIに置き換え
+- UnityAssetStoreのアセットを削除
+- READNE.mdファイル、LICENSEファイルの更新
 
 # 本ソフトウェア使用のガイドライン
 以下に本ソフトウェア使用のガイドラインを記載します。詳細につきましてはLICENSEファイルを参照ください。
