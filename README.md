@@ -27,6 +27,12 @@
 - Unity 2020.3.26f
 - ruby 3.1.2
 
+# 使用ソフト・ライブラリ
+- [FancyScrollView](https://github.com/setchi/FancyScrollView)  
+　→メニュー画面のアニメーション実装に使用しています。
+- [NoteEditor](https://github.com/setchi/NoteEditor)  
+　→楽曲の譜面制作に使用しています。
+
 # OpenBakuSou 開発手順
 ## 1.画像を差し替える
 | # | ファイル名 | 概要 | 表示される条件 |
