@@ -62,28 +62,28 @@ OpenBakuSouは、オープンソース化するために本家「幕奏-BAKU SOU
 | # | ファイル名 | 概要 | 表示される条件 |
 | :---: | :--- | :--- | :--- |
 | 1 | Assets\Textures\rank\a.png | リザルト画面のAランク画像 | Aランクのとき |
-| 1 | Assets\Textures\rank\b.png | リザルト画面のBランク画像 | Bランクのとき |
-| 1 | Assets\Textures\rank\c.png | リザルト画面のCランク画像 | Cランクのとき |
-| 1 | Assets\Textures\rank\s.png | リザルト画面のSランク画像 | Sランクのとき |
-| 1 | Assets\Textures\rank\ss.png | リザルト画面のSSランク画像 | SSランクのとき |
-| 1 | Assets\Textures\score\0.png～9.png | リザルト画面のスコアの数字 | リザルト画面表示時 |
-| 1 | Assets\Textures\score\newrecord.png | リザルト画面でニューレコード達成時 | ニューレコード達成時 |
-| 1 | Assets\Textures\score\score.png | リザルト画面のスコアテキスト | リザルト画面表示時 |
-| 1 | Assets\Textures\bar_clear.png | ゲーム画面のスコアバーのクリア部分 | ゲーム画面表示時 |
-| 1 | Assets\Textures\bar_fail.png | ゲーム画面のスコアバーの失敗部分 | ゲーム画面表示時 |
-| 1 | Assets\Textures\bar_image.png | ゲーム画面のスコアバーの枠 | ゲーム画面表示時 |
-| 1 | Assets\Textures\bgkinoko.png | ゲーム画面の奥に表示される黒のきのこマーク | ゲーム画面表示時 |
-| 1 | Assets\Textures\char1.png | ゲーム画面の手前に表示されるノーツマーク | ゲーム画面表示時 |
-| 1 | Assets\Textures\char1_shadow.png | ゲーム画面の奥から流れてくるノーツマーク | ゲーム画面表示時 |
-| 1 | Assets\Textures\char2.png | 未使用 | 未使用 |
-| 1 | Assets\Textures\charhikari.png | ゲーム画面の手前に表示されるノーツマーク押下時のエフェクト | ゲーム画面表示時 |
-| 1 | Assets\Textures\FillGreen.png | メニュー画面の設定ウィンドウの音量設定バーの背景 |メニュー画面でSetting押下時 |
-| 1 | Assets\Textures\pushGreen.png | ゲーム画面でノーツ押下時、判定がGreatのとき | 判定がGreatのとき |
-| 1 | Assets\Textures\pushMizu.png | ゲーム画面でノーツ押下時、判定がGoodのとき | 判定がGoodのとき |
-| 1 | Assets\Textures\pushMura.png | ゲーム画面でノーツ押下時、判定がBadのとき | 判定がBadのとき |
-| 1 | Assets\Textures\pushNotes.png | ゲーム画面でノーツ押下時、未判定のとき | 未判定のとき |
-| 1 | Assets\Textures\pushRed.png | 未使用 | 未使用 |
-| 1 | Assets\Textures\star.png | リザルト画面のアイコン | リザルト画面表示時 |
+| 2 | Assets\Textures\rank\b.png | リザルト画面のBランク画像 | Bランクのとき |
+| 3 | Assets\Textures\rank\c.png | リザルト画面のCランク画像 | Cランクのとき |
+| 4 | Assets\Textures\rank\s.png | リザルト画面のSランク画像 | Sランクのとき |
+| 5 | Assets\Textures\rank\ss.png | リザルト画面のSSランク画像 | SSランクのとき |
+| 6 | Assets\Textures\score\0.png～9.png | リザルト画面のスコアの数字 | リザルト画面表示時 |
+| 7 | Assets\Textures\score\newrecord.png | リザルト画面でニューレコード達成時 | ニューレコード達成時 |
+| 8 | Assets\Textures\score\score.png | リザルト画面のスコアテキスト | リザルト画面表示時 |
+| 9 | Assets\Textures\bar_clear.png | ゲーム画面のスコアバーのクリア部分 | ゲーム画面表示時 |
+| 10 | Assets\Textures\bar_fail.png | ゲーム画面のスコアバーの失敗部分 | ゲーム画面表示時 |
+| 11 | Assets\Textures\bar_image.png | ゲーム画面のスコアバーの枠 | ゲーム画面表示時 |
+| 12 | Assets\Textures\bgkinoko.png | ゲーム画面の奥に表示される黒のきのこマーク | ゲーム画面表示時 |
+| 13 | Assets\Textures\char1.png | ゲーム画面の手前に表示されるノーツマーク | ゲーム画面表示時 |
+| 14 | Assets\Textures\char1_shadow.png | ゲーム画面の奥から流れてくるノーツマーク | ゲーム画面表示時 |
+| 15 | Assets\Textures\char2.png | 未使用 | 未使用 |
+| 16 | Assets\Textures\charhikari.png | ゲーム画面の手前に表示されるノーツマーク押下時のエフェクト | ゲーム画面表示時 |
+| 17 | Assets\Textures\FillGreen.png | メニュー画面の設定ウィンドウの音量設定バーの背景 |メニュー画面でSetting押下時 |
+| 18 | Assets\Textures\pushGreen.png | ゲーム画面でノーツ押下時、判定がGreatのとき | 判定がGreatのとき |
+| 19 | Assets\Textures\pushMizu.png | ゲーム画面でノーツ押下時、判定がGoodのとき | 判定がGoodのとき |
+| 20 | Assets\Textures\pushMura.png | ゲーム画面でノーツ押下時、判定がBadのとき | 判定がBadのとき |
+| 21 | Assets\Textures\pushNotes.png | ゲーム画面でノーツ押下時、未判定のとき | 未判定のとき |
+| 22 | Assets\Textures\pushRed.png | 未使用 | 未使用 |
+| 23 | Assets\Textures\star.png | リザルト画面のアイコン | リザルト画面表示時 |
 
 ## 2.効果音・BGM・ボイスを差し替える（任意）
 ### 効果音
